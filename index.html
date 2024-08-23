@@ -11,8 +11,28 @@
 </head>
 
 <body>
-
-    <div>hello</div>
+    <div class="background">
+        <img src="./assest/source/background.webp" id="bg-img">
+    </div>
+    <div class="container">
+        <div class="player-image">
+            <img src="./assest/source/Kabk.jpg" class="active" id="cover">
+        </div>
+        <h2 id="music-title">Test</h2>
+        <h3 id="music-artist">Test2</h3>
+        <div class="player-progress" id="player-progress">
+            <div class="progress"></div>
+            <div class="music-duration">
+                <span id="current-time">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        <div class="player-controls">
+            <i class="fa-solid fa-backward" title="Perv"></i>
+            <i class="fa-solid fa-play play-button" title="Play"></i>
+            <i class="fa-solid fa-forward" title="Next"></i>
+        </div>
+    </div>
     <script src="./script.js"></script>
 </body>
 
